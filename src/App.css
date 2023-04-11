@@ -1,0 +1,11 @@
+#Nav\.Link,
+a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+#Navbar\.Brand {
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+}

@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "companyName": "Sörgarline Gräv & Transport"
+    },
+    {
+        "id": 2,
+        "phoneNumber":"+4600000123"
+    },
+    {
+        "id": 3,
+        "address": "GrävVägen 100",
+        "ort": "Arboga"
+    }
+]
