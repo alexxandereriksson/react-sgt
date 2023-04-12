@@ -1,14 +1,11 @@
 [
     {
-        "id": 1,
-        "companyName": "Sörgarline Gräv & Transport"
-    },
-    {
-        "id": 2,
-        "phoneNumber":"+4600000123"
-    },
-    {
-        "id": 3,
+        "companyName": "Sörgarline Gräv & Transport",
+        "work": "Byggarbeten, Anläggningsarbeten och Vägunderhåll",
+        "slogan": " \"Vi gör jobbet lite enklare!\"",
+
+        "phoneNumber": "+4600000123",
+
         "address": "GrävVägen 100",
         "ort": "Arboga"
     }

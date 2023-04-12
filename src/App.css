@@ -9,3 +9,14 @@ a {
     font-size: larger;
     font-weight: 600;
 }
+
+img {
+    height: 50px;
+}
+#root > div > nav {
+    background-color: transparent !important;
+}
+#Nav\.Link {
+    text-decoration: none;
+}
+
