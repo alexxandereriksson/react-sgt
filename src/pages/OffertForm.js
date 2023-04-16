@@ -1,5 +1,4 @@
 import React from 'react'
-
 import styled from 'styled-components'
 import Form from '../components/Form'
 function OffertForm() {
@@ -9,7 +8,7 @@ function OffertForm() {
 
             <Form
                 offertHeader="Välkommen till vårat offertformulär!"
-                infoText="Fyll i dina uppgifter nedan, så återkopplar vi så snart vi kan, Tack! :)"
+                infoText="Fyll i dina uppgifter nedan, så återkopplar vi så snart vi kan, Tack!"
             />
         </>
     )

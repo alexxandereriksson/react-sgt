@@ -2,7 +2,8 @@ import styled from 'styled-components'
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import DataInfo from '../components/DataInfo'
-
+// import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+// import {faFacebook} from '@fortawesome/free-solid-svg-icons'
 function Home() {
     const toForm = '/offert'
     const data = useContext(DataInfo)
@@ -11,7 +12,7 @@ function Home() {
     return (
         <Wrap>
             <Title>
-                <h1 className='companyName'>{company}</h1>
+                <h1 className="companyName">{company} </h1>
             </Title>
             <Slogan>
                 <h3>{slogan}</h3>
@@ -19,7 +20,7 @@ function Home() {
 
             <Button>
                 <Link className="offertTag" to={toForm}>
-                    Gratis offert
+                Gratis offert
                 </Link>
             </Button>
         </Wrap>
@@ -38,9 +39,8 @@ const Wrap = styled.div`
     border: 0.1rem solid black;
 `
 const Title = styled.div`
-    @import url('https://fonts.googleapis.com/css2?family=Amiko&family=Oswald:wght@600&family=Shadows+Into+Light&display=swap');
     color: white;
-    text-shadow: 2px 1px 2px black;
+    text-shadow: 5px 5px 5px black;
     padding-top: 4rem;
     text-align: center;
     height: 4rem;
@@ -50,17 +50,17 @@ const Title = styled.div`
 `
 
 const Slogan = styled.div`
- @import url('https://fonts.googleapis.com/css2?family=Amiko&family=Oswald:wght@600&family=Shadows+Into+Light&display=swap');
     color: white;
-    text-shadow: 2px 2px 2px black;
-
+    text-shadow: 5px 5px 5px black;
+    text-transform: uppercase;
     text-align: center;
     height: 4rem;
-    padding-top: 4rem;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 6rem;
 `
 const Button = styled.button`
-    background-color: rgba(28, 55, 96, 0.9);
-
+    background-color: rgba(29, 60, 120, 1);
+    font-family: 'Oswald', sans-serif;
     color: white;
     display: flex;
     justify-content: center;
@@ -70,6 +70,5 @@ const Button = styled.button`
     border-radius: 10px;
     font-size: 16px;
     margin: 5rem auto;
-
-    filter: drop-shadow(16px 13px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(10px 15px 4px rgba(29, 60, 120, 0.25));
 `

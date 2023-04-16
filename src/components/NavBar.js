@@ -3,7 +3,8 @@ import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone, faHouse, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faPhone, faHouse, faEnvelope} from '@fortawesome/free-solid-svg-icons'
+
 import Home from '../pages/Home'
 import Contact from '../pages/Contact'
 import OffertForm from '../pages/OffertForm'
@@ -41,7 +42,9 @@ function NavBar() {
                     <Route path="/contact" element={<Contact />} />
                     <Route path="/offert" element={<OffertForm />} />
                 </Routes>
+
             </DataFetcher>
+
             <Footer />
         </>
     )
