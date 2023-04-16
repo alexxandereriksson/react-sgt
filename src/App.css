@@ -1,8 +1,10 @@
 #Nav\.Link,
 a {
+    justify-content: center;
+    text-align: center;
     text-decoration: none;
     color: white;
-    padding: 0.5rem;
+    padding: 0 2rem;
 }
 
 .companyLogo {
@@ -10,12 +12,21 @@ a {
     width: 100%;
     object-fit: contain;
     mix-blend-mode: color-burn;
+
 }
+#root > div > div.justify-content-center.nav > div:nth-child(1) > a > svg > path{
+    background-color: rgba(29, 60, 120, 1);
+
+}
+
+
 #root > div > nav {
     background-color: rgba(29, 60, 120, 1);
+
 }
 #Nav\.Link {
     text-decoration: none;
+
 }
 .offertTag {
     color: white;
@@ -38,10 +49,10 @@ form {
 span {
     color: red;
 }
-.companyName{
+.companyName {
     font-size: 3rem;
 }
 
-.myForm{
+.myForm {
     background-color: rgba(255, 255, 255, 0.8);
 }

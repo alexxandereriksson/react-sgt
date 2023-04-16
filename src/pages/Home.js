@@ -51,12 +51,12 @@ const Title = styled.div`
 
 const Slogan = styled.div`
     color: white;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 2px 3px black;
     text-transform: uppercase;
     text-align: center;
-    height: 4rem;
+    height: 7rem;
     font-family: 'Oswald', sans-serif;
-    padding-top: 6rem;
+    padding-top: 5rem;
 `
 const Button = styled.button`
     background-color: rgba(29, 60, 120, 1);
@@ -69,6 +69,6 @@ const Button = styled.button`
     height: 45px;
     border-radius: 10px;
     font-size: 16px;
-    margin: 5rem auto;
+    margin: 11rem auto;
     filter: drop-shadow(10px 15px 4px rgba(29, 60, 120, 0.25));
 `

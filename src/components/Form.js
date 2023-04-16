@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import Thanks from './Thanks.tsx'
+
+
 function Forms({ offertHeader, infoText }) {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
@@ -11,8 +13,6 @@ function Forms({ offertHeader, infoText }) {
     const [isSubmitted, setIsSubmitted] = useState(false)
     function handleInput(e) {
         e.preventDefault()
-
-        setError({}) // återställer alla befintliga felmeddelanden
 
         if (!name) {
             setError({ ...error, name: 'Fyll i ditt namn' })
@@ -34,13 +34,13 @@ function Forms({ offertHeader, infoText }) {
     return (
         <>
             {isSubmitted ? (
-                 <Thanks  thanks="Tack för din offert!" />
+                <Thanks thanks="Tack för din offert!" />
             ) : (
-                <Form className='myForm' onSubmit={handleInput}>
+                <Form className="myForm" onSubmit={handleInput}>
                     <h3>{offertHeader} </h3>
                     <h6>{infoText} </h6>
 
-                    {}
+                    
                     <Form.Group
                         className="mb-3"
                         controlId="exampleForm.ControlInput1"
@@ -50,7 +50,7 @@ function Forms({ offertHeader, infoText }) {
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                             type="text"
-                            placeholder="Jane Doe"
+                            placeholder="ex..Janne Andersson"
                         />
                         {error.name && <span>{error.name}</span>}
                     </Form.Group>

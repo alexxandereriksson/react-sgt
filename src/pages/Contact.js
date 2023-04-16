@@ -46,7 +46,7 @@ const INFO = styled.div`
     height: 10rem;
     margin: 1rem;
     text-align: center;
-    background-color: rgba(28, 55, 96, 0.8);
+    background-color:  rgba(29, 60, 120,1);
     color: white;
     font-weight: 600;
 `
