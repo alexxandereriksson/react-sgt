@@ -1,22 +1,47 @@
 #Nav\.Link,
 a {
     text-decoration: none;
-    color: black;
-    padding: 1rem;
-}
-#Navbar\.Brand {
-    text-decoration: none;
-    font-size: larger;
-    font-weight: 600;
+    color: white;
+    padding: 0.5rem;
 }
 
-img {
-    height: 50px;
+.companyLogo {
+    height: 10vh;
+    width: 100%;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
 }
 #root > div > nav {
-    background-color: transparent !important;
+    background-color: rgba(29, 60, 120, 1);
 }
 #Nav\.Link {
     text-decoration: none;
 }
+.offertTag {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
+.offertTag:hover {
+    color: white;
+    font-size: large;
+    font-weight: 500;
+}
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    color: red;
+}
+.companyName{
+    font-size: 3rem;
+}
+
+.myForm{
+    background-color: rgba(255, 255, 255, 0.8);
+}
