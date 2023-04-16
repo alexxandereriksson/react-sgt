@@ -2,8 +2,7 @@ import styled from 'styled-components'
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import DataInfo from '../components/DataInfo'
-// import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-// import {faFacebook} from '@fortawesome/free-solid-svg-icons'
+
 function Home() {
     const toForm = '/offert'
     const data = useContext(DataInfo)
@@ -37,6 +36,8 @@ const Wrap = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
     border: 0.1rem solid black;
+
+
 `
 const Title = styled.div`
     color: white;
@@ -54,7 +55,7 @@ const Slogan = styled.div`
     text-shadow: 5px 2px 3px black;
     text-transform: uppercase;
     text-align: center;
-    height: 7rem;
+
     font-family: 'Oswald', sans-serif;
     padding-top: 5rem;
 `
