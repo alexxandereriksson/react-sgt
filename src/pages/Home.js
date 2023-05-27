@@ -19,7 +19,7 @@ function Home() {
 
             <Button>
                 <Link className="offertTag" to={toForm}>
-                Gratis offert
+                    Gratis offert
                 </Link>
             </Button>
         </Wrap>
@@ -29,15 +29,13 @@ function Home() {
 export default Home
 
 const Wrap = styled.div`
-    background-image: url('/images/pexels-ivan-188679.jpg');
+    background-image: url('/images/SGT.jpg');
     height: 100vh;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     border: 0.1rem solid black;
-
-
 `
 const Title = styled.div`
     color: white;
